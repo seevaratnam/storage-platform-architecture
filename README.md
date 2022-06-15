@@ -5,54 +5,42 @@ Storage Platform Architecture & Design
 
 ### Design Artifacts
 
-- With `-1` : Lists one entry per line
+- Event Storming
 
-  ![image](images/)
+  ![image](images/event-storming.png)
 
-- With `-a` (or) `--all` : Does not ignore entries starting with '.'
+- User Flow
 
-  ![image](images/)
+  ![image](images/user-flow.png)
 
-- With `-A` (or) `--almost-all` : Does not ignore entries starting with '.', except `./` and `../`
+- User Flow System Mapping
 
-  ![image](images/)
+  ![image](images/userflow-mapping.png)
 
-- With `-d` (or) `--dirs` : Shows only directories
+- Storage Workflow
 
-  ![image](images/)
+  ![image](images/storage-workflow.png)
 
-- With `-f` (or) `--files` : Shows only files
+- Storage Database Schema
 
-  ![image](images/)
+  ![image](images/storage-database-schema.png)
 
-- With `-h` (or) `--help` : Prints a very helpful help menu
+- Scalable Cloud Architecture
+- 
+  ![image](images/scalable-architecture.png)
 
-  ![image](images/)
+- CI/CD Pipeline Design
 
-- With `-l` (or) `--long` : Shows in long listing format
+  ![image](images/cicd_pipeline.png)
 
-  ![image](images/)
+- Notification Scope
 
-- With `-r` (or) `--report` : Shows brief report about number of files and folders shown
+  ![image](images/notification-scope.png)
+  
+- Blue/Green Deployment Flow
 
-  ![image](https://user-images.githubusercontent.com/17109060/32149082-96a83fec-bd25-11e7-9081-7f77e4c90e90.png)
+  ![image](images/blue-green-deployment-flow.png)
 
-- With `--tree` (or) `--tree=[DEPTH]` : Shows tree view of the directory with the specified depth (default 3)
+- Blue/Green Cloud Architecture
 
-  ![image](https://user-images.githubusercontent.com/17109060/32149051-32e596e4-bd25-11e7-93a9-5e50c8d2bb19.png)
-
-- With `--gs` (or) `--git-status` : Shows git status for each entry
-
-  ![image](https://user-images.githubusercontent.com/17109060/32149075-7a1a1954-bd25-11e7-964e-1adb173aa2b9.png)
-
-- With `--sd` (or) `--sort-dirs` or `--group-directories-first` : Shows directories first, followed by files
-
-  ![image](https://user-images.githubusercontent.com/17109060/32149068-65117fc0-bd25-11e7-8ada-0b055603e3fd.png)
-
-- With `--sf` (or) `--sort-files` : Shows files first, followed by directories
-
-  ![image](https://user-images.githubusercontent.com/17109060/32149071-6b379de4-bd25-11e7-8764-a0c577e526a1.png)
-
-- With `-t` : Sort by modification time, newest first (NEED TO ADD IMAGE)
-
-- With color options : `--light` or `--dark` can be passed as a flag, to choose the appropriate color scheme. By default, the dark color scheme is chosen. In order to tweak any color, read [Custom configurations](#custom-configurations).
+  ![image](images/blue-green-architecture.png)
